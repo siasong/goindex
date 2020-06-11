@@ -1,14 +1,14 @@
 // https://github.com/donwa/goindex/blob/master/使用及免责协议.md
 
 var authConfig = {
-    "siteName": "GoIndex", // 网站名称
-    "root_pass": "index",  // 根目录密码，优先于.password
+    "siteName": "GoIndex of Taylant", // 网站名称
+    "root_pass": "siasong",  // 根目录密码，优先于.password
     "version" : "1.0.6", // 程序版本
     "theme" : "material", // material  classic 
-    "client_id": "202264815644.apps.googleusercontent.com",
-    "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-    "refresh_token": "", // 授权 token
-    "root": "root" // 根目录ID
+    "client_id": "989803023493-ruofmf1touck3fvshj8tvet9vq95b3fm.apps.googleusercontent.com",
+    "client_secret": "1u8vhnJVDVSYyGEM-9H00mqz",
+    "refresh_token": "1//0eBx7E6xIi2UCCgYIARAAGA4SNwF-L9IrkEAXa3dwouqDzmC7Ya2fNsPVCSvOG986APHxm_Ibf3TRhAXmRSxHaasf94PjkCgcZjQ", // 授权 token
+    "root": "1cYdbVoNbacGSTAS3QK23tUXDnMl0FPWC" // 根目录ID
 };
 
 var gd;
@@ -20,7 +20,7 @@ var html = `
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
-  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/donwa/goindex@${authConfig.version}/themes/${authConfig.theme}/app.js"></script>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/siasong/goindex@1.0.6/themes/${authConfig.theme}/app.js"></script>
 </head>
 <body>
 </body>
